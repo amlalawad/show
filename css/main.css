@@ -1,0 +1,625 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+
+}
+.new-movies{
+    margin-top: 1%;
+   text-align: center;
+   background: #111;
+   height: 50px;
+
+}
+.new-movies label{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.logo{
+    cursor: pointer;
+    margin-left: auto;
+    background-color: #000;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+}
+button:hover{
+    background-color:rgb(38, 39, 68);
+    font-weight: bolder;
+}
+
+
+.icon{
+    color: #fff;
+    padding: 0px 15px;
+    text-decoration: none;
+}
+
+.text1{
+    width: 100%;
+    height: 600px;
+    background-size: 100% 100%;
+    padding-top: 50px;
+    background-image: url(../images/wallpapersden.com_peaky-blinders-game_2560x1440.jpg);
+    box-shadow: 2px 3px 12px 6px white;
+    animation: slider 40s infinite ease-in-out;
+}
+.text1 h1{
+    padding-top: 80px;
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+
+}
+.text1 p{
+    text-align: center;
+    color: rgb(223, 215, 215);
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+.search{
+    display: inline-block;
+}
+.search input{
+    width: 60px;
+    border: none;
+    text-align: left;
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    margin-top: 0p;
+    margin-bottom: 40px;
+    height: 30px;
+    border-radius: 50px;
+    padding-left: 10px;
+    
+}
+.search input:hover{
+    border: 5px;
+    width: 150px;
+}
+.search button{
+    width: 30px;
+    height: 30px;
+    align-self: center;
+    padding: 1px 3px 1px 3px; 
+    cursor: pointer;
+    background-color:rgba(0, 0, 0, 0.3);
+    border: none;
+    border-radius: 50px;
+
+}
+.search-icon{
+    width: 50%;
+    height: 50%;
+    margin: 0 ;
+}
+nav{
+    background:rgba(0, 0, 0, 0.3);
+    width: 100%;
+    direction: rtl;
+    
+}
+nav label{
+    padding: 10px 10px;
+    margin-left: 1%;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav ul{
+    float: right;
+    margin-top: 10px;
+}
+nav ul li {
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+    padding: 0 10px;
+    display: inline-block;
+    
+    padding-bottom: 20px;
+}
+nav ul li a{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+    text-align: center;
+}
+nav ul li a:hover{
+    color: rgb(218, 32, 32);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+
+    
+}
+ h1,h2, h3{
+    margin: 30px 25px;
+    text-align: justify ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+}
+.menu{
+    color: rgb(2, 34, 2);
+    margin: 0 40px;
+    display: none;
+}
+#toggle{
+    display: none;
+}
+
+.relative {
+    position: absolute;
+    margin-top: 20px;
+    text-align: center;
+}
+.relative h3{
+    text-align: center;
+}
+.copyright{
+    text-align: center;
+    text-transform: capitalize;
+    background-color: #000;
+    line-height: 75px;
+}
+.copyright a{
+    text-transform: uppercase;
+
+}
+
+.copyright p{
+    color: darkgrey;
+}
+.for-box h3,p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+}
+.footer-top{
+    background: #111;
+    margin-top: 20px;
+}
+.contact{
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    letter-spacing: 0px;
+}
+.two h3,h4{
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    letter-spacing: 0px;
+    font-weight: bold;
+}
+.one ul li{
+    display: inline-block;
+    padding: 20px 6px;
+    margin-top: 40px;
+
+}
+.two ul li{
+    display: block;
+    padding: 3px 5px;
+    color: aliceblue;
+    text-align: left;
+    font-size: 16px;
+}
+.two ul li img{
+    padding: 3px 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.movies{
+    background: #111;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+.relative label{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+}
+.icons{
+    width: 50%;
+    height: 50%;
+    align-items: center;
+    
+}
+.contact-us{
+    width: 100%;
+    background-image: url(../images/fbf475e42469f695fd3ccc9306cfa156.jpg);
+    background-size: 100% 100%;
+    height: 600px;
+}
+.contact-us form{
+    display: block;
+    align-self: center;
+    margin:0% 30%;
+    width: 100%;
+}
+.contact-us form label{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+    font-size: 16px;
+    text-align: left;
+    text-transform: capitalize;
+    width: 300px;
+    height: 30px;
+    align-self: center;
+    margin: 0px 10px 0px 10px;
+    display: block;
+    
+}
+.contact-us form input{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    text-align: left;
+    text-transform: capitalize;
+    width: 300px;
+    height: 30px;
+    align-self: center;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 15px;
+    display: block;
+    border: none;
+    border-bottom: 2px solid gray;
+    background: transparent;
+}
+.contact-us form textarea{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    text-align: left;
+    text-transform: capitalize;
+    width: 300px;
+    align-self: center;
+    margin: 0 10px 0 10px;
+    padding: 10px 10px;
+    display: block;
+    border: none;
+    border-bottom: 2px solid gray;
+    background: transparent;
+}
+.send-button{
+    width: 300px;
+    height: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+    text-align: center;
+    background-color: chocolate;
+    margin: 5px 10px 5px 10px;
+    padding: 0px 10px;
+    border-radius: 50px;
+    color: #fff;
+    
+}
+.contact-us form button:hover{
+text-transform: uppercase;
+background-color: darkgreen;
+}
+.contact-us form h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+    text-align: left;
+    color: cornsilk;
+    
+}
+.reset-button{
+    display: block;
+    width: 300px;
+    height: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+    text-align: center;
+    background-color: rgb(0, 24, 41);
+    margin: 5px 10px 5px 10px;
+    padding: 0px 10px;
+    border-radius: 50px;
+    color: #fff;
+    
+}
+.sign-up form{
+    align-self: center;
+    padding-top: 50px;
+    width: 40%;
+    padding-left: 30%;
+    padding-right: 30%;
+   
+}
+.sign-up form h4,h5{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+    text-align: center;
+    color: cornsilk;
+    padding: 0px 18px;
+    display: inline;
+}
+.sign-button{
+    width: 300px;
+    height: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+    text-align: center;
+    background-color: rgb(3, 15, 3);
+    margin: 5px 10px 5px 10px;
+    padding: 0px 10px;
+    border-radius: 50px;
+    color: #fff;
+}
+.sign-button:hover{
+    
+    background-color: rgb(3, 136, 3);
+    text-transform:uppercase;
+    
+}
+.reset-button2{
+    width: 300px;
+    height: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+    text-align: center;
+    background-color: rgb(78, 3, 3);
+    margin: 5px 10px 5px 10px;
+    padding: 0px 10px;
+    border-radius: 50px;
+    color: #fff;
+    display: block;
+}
+.sign-up{
+    width: 100%;
+    background-image: url(../images/marvel3.jpg);
+    background-size: 100% 100%;
+}
+.sign-up form label{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+    font-size: 16px;
+    text-align: left;
+    text-transform: capitalize;
+    width: 300px;
+    height: 30px;
+    align-self: center;
+    margin: 0px 10px 0px 10px;
+    display: block;
+}
+.sign-up form input{
+    display: block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    text-align: left;
+    text-transform: capitalize;
+    width: 300px;
+    height: 30px;
+    align-self: center;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 15px;
+    border: none;
+    border-bottom: 2px solid gray;
+    background: transparent;
+}
+.login-button{
+    width: 300px;
+    height: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+    text-align: center;
+    background-color: rgb(14, 2, 80);
+    margin: 5px 10px 5px 10px;
+    padding: 0px 10px;
+    border-radius: 50px;
+    color: #fff;
+    display: block;
+}
+.about{
+    width: 100%;
+    background-image: url(../images/f15e0b27.jpg);
+    background-size: 100% 100%;
+    height: 700px;
+    text-align: center justify;
+}
+.about h1{
+    text-align: center;
+    padding-top: 30%;
+    text-transform: uppercase;
+    color: brown;
+    font-size:100%;
+    font-weight: bold;
+}
+.about1{
+    width: 100%;
+    background: #000;
+}
+.about1 p{
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+    padding-right: 30px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: cornsilk;
+}
+.screen-shots{
+    width: 100%;
+    background-image: url(../images/captain-jack-sparrow-4k-pirates-of-the-caribbean-dead-men-tell-no-tales-johnny-depp-wallpaper-preview.jpg);
+    background-size: 100% 100%;
+}
+.login{
+    width: 100%;
+    background-image: url(../images/captain-jack-sparrow-4k-pirates-of-the-caribbean-dead-men-tell-no-tales-johnny-depp-wallpaper-preview.jpg);
+    background-size: 100% 100%;
+    
+}
+.login form{
+    align-self: center;
+    transition: all 4s ease-in-out;
+    display: block;
+    position: static;
+    padding-left: 30%;
+    
+}
+.login form label{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: 16px;
+    text-align: left;
+    text-transform: capitalize;
+    width: 300px;
+    height: 30px;
+    align-self: center;
+    margin: 0px 10px 0px 10px;
+    padding: 0px 15px;
+    font-weight: bold;
+}
+.log-button{
+    width: 300px;
+    height: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+    text-align: center;
+    background-color: rgb(4, 128, 4);
+    margin: 5px 10px 5px 10px;
+    padding: 0px 10px;
+    border-radius: 50px;
+    color: #fff;
+}
+.login form input{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    text-align: left;
+    display: block;
+    text-transform: capitalize;
+    width: 300px;
+    height: 30px;
+    align-self: center;
+    margin: 10px 10px 10px 10px;
+    
+    border: none;
+    border-bottom: 2px solid gray;
+    background: transparent;
+}
+.login form h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+    text-align: left;
+    color: cornsilk;
+    padding: 0px 18px;
+}
+.cards{
+    width: 100%;
+    background: rgb(185, 157, 157);
+    padding: 20px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 2px 3px 12px 6px rgba(11, 11, 134, 0.945);
+}
+.cards img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.cards:hover{
+    box-shadow: 2px 3px 12px 6px  #fff;
+    cursor: pointer;
+   
+}
+.cards button{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 10px;
+    background-color: #000;
+    color: #fff;
+    border: 50px;
+    padding: 0px 18px;
+    border-radius: 30px;
+    width: 100px;
+    height: 30px;
+
+}
+.cards button:hover{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 10px;
+    background-color: rgb(21, 18, 167);
+    color: #000;
+    text-transform: uppercase;
+}
+@media (max-width: 952px){
+   
+nav ul a{
+    
+font-size: 16px;
+
+}
+     
+}
+@media (max-width: 858px){
+    .menu {
+        width: 30px;
+        display: block;
+        cursor: pointer;
+        align-self: center;
+    }
+    
+    nav ul{
+        position: fixed;
+        width:100%;
+        height: 100%;
+        background: #2c3e50;
+        top: 80px;
+        left:-100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+       line-height: 30px;
+        margin:50px 0;
+    }
+    nav ul li a{
+        font-size:16px;
+    }
+    nav ul li a:hover,a.activate{
+        background-color: none;
+        color: #fff;
+
+    }
+    #toggle:checked ~ ul{
+        left: 0;
+        margin-bottom: 1px;
+    }
+}
+.slider{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    background-image: url(../images/fortnite-john.jpg);
+    background-size: 100% 100%;
+
+}
+@keyframes slider{
+0%{background-image: url(../images/logan.jpg);}
+20%{background-image: url(../images/fortnite-john.jpg);}
+40%{background-image: url(../images/1983232.png);}
+60%{background-image: url(../images/wp4285898.jpg);}
+}
